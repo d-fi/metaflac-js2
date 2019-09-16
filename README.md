@@ -28,9 +28,10 @@ metaflac-js -h
 
 Note: here is the official FLAC tools [doc](https://xiph.org/flac/documentation_tools_metaflac.html)
 
-* This is a fork of [metaflac-js](https://github.com/ishowshao/metaflac-js) with minor improvements for detecting image dimensions and mime type.
+- This is a fork of [metaflac-js](https://github.com/ishowshao/metaflac-js) with minor improvements for detecting image dimensions and mime type.
 
 #### Changelog:
+
 - Removed `importPictureFrom`and `importPictureFromBuffer`
 - Added `importPicture`
 
