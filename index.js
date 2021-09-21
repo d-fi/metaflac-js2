@@ -54,7 +54,7 @@ class Metaflac {
     let isLastBlock = false;
     while (!isLastBlock) {
       blockType = this.buffer.readUInt8(offset++);
-      isLastBlock = blockType > 128;
+      isLastBlock = blockType >= 128;
       blockType = blockType % 128;
       //            console.log('Block Type: %d %s', blockType, BLOCK_TYPE[blockType]);
 
